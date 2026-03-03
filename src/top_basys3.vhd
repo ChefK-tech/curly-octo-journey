@@ -23,7 +23,10 @@
 --|					Output:  seg (6:0) --> 7-bit signal to activate the individual segments (active low)
 --|							 an (3:0)  --> 4-bit signal to control which display turns on (active low)
 --|
---|
+--| DOCUMENTATION : https://chatgpt.com/share/69a7163b-1694-800e-83d3-abaa1293e3e5
+--| Asked Chatgpt for debugging help regarding why my initial code would not compile.
+--| It gave advice regarding connecting inputs to outputs and declaring the vectors
+--| It also provided advice about the basys board and why it's anodes were active-low
 --+----------------------------------------------------------------------------
 --|
 --| REQUIRED FILES :

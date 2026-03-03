@@ -1,6 +1,7 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
 "../../../../src/sevenseg_decoder.vhd" \
+"../../../../src/top_basys3.vhd" \
 "../../../../binaryHexDisp.srcs/sim_1/new/sevenseg_decoder_tb.vhd" \
 
 # Do not sort compile order
