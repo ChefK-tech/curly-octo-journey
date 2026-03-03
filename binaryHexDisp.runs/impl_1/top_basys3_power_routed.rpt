@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date             : Mon Mar  2 20:44:25 2026
+| Date             : Tue Mar  3 09:56:44 2026
 | Host             : C27-5CG31326YT running 64-bit major release  (build 9200)
 | Command          : report_power -file top_basys3_power_routed.rpt -pb top_basys3_power_summary_routed.pb -rpx top_basys3_power_routed.rpx
 | Design           : top_basys3
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 8.578        |
+| Total On-Chip Power (W)  | 8.577        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 8.457        |
+| Dynamic (W)              | 8.456        |
 | Device Static (W)        | 0.121        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 42.1         |
@@ -52,13 +52,13 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.026 |        9 |       --- |             --- |
-|   LUT as Logic |     0.026 |        5 |     20800 |            0.02 |
+| Slice Logic    |     0.025 |        9 |       --- |             --- |
+|   LUT as Logic |     0.025 |        5 |     20800 |            0.02 |
 |   Others       |     0.000 |        1 |       --- |             --- |
 | Signals        |     0.091 |       13 |       --- |             --- |
 | I/O            |     8.341 |       16 |       106 |           15.09 |
 | Static Power   |     0.121 |          |           |                 |
-| Total          |     8.578 |          |           |                 |
+| Total          |     8.577 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -135,7 +135,7 @@ Table of Contents
 +------------+-----------+
 | Name       | Power (W) |
 +------------+-----------+
-| top_basys3 |     8.457 |
+| top_basys3 |     8.456 |
 +------------+-----------+
 
 

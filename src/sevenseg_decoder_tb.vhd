@@ -58,52 +58,52 @@ begin
 	
         -- Test 0
         i_hex <= "0000"; wait for 10 ns;
-        assert (o_seg_n = "1111110") report "Error with 0" severity failure;
+        assert (o_seg_n = "0111111") report "Error with 0" severity failure;
         -- Test 1
         i_hex <= "0001"; wait for 10 ns;
-        assert (o_seg_n = "0110000") report "Error with 1" severity failure;
+        assert (o_seg_n = "0000110") report "Error with 1" severity failure;
         -- Test 2
         i_hex <= "0010"; wait for 10 ns;
-        assert (o_seg_n = "1101101") report "Error with 2" severity failure;
+        assert (o_seg_n = "1011011") report "Error with 2" severity failure;
         -- Test 3
         i_hex <= "0011"; wait for 10 ns;
-        assert (o_seg_n = "1111001") report "Error with 3" severity failure;
+        assert (o_seg_n = "1001111") report "Error with 3" severity failure;
         -- Test 4
         i_hex <= "0100"; wait for 10 ns;
-        assert (o_seg_n = "0110011") report "Error with 4" severity failure;
+        assert (o_seg_n = "1100110") report "Error with 4" severity failure;
         -- Test 5
         i_hex <= "0101"; wait for 10 ns;
-        assert (o_seg_n = "1011011") report "Error with 5" severity failure;
+        assert (o_seg_n = "1101101") report "Error with 5" severity failure;
         -- Test 6
         i_hex <= "0110"; wait for 10 ns;
-        assert (o_seg_n = "1011111") report "Error with 6" severity failure;
+        assert (o_seg_n = "1111101") report "Error with 6" severity failure;
         -- Test 7
         i_hex <= "0111"; wait for 10 ns;
-        assert (o_seg_n = "1110000") report "Error with 7" severity failure;
+        assert (o_seg_n = "0000111") report "Error with 7" severity failure;
         -- Test 8
         i_hex <= "1000"; wait for 10 ns;
         assert (o_seg_n = "1111111") report "Error with 8" severity failure;
         -- Test 9
         i_hex <= "1001"; wait for 10 ns;
-        assert (o_seg_n = "1111011") report "Error with 9" severity failure;
+        assert (o_seg_n = "1101111") report "Error with 9" severity failure;
         -- Test A
         i_hex <= "1010"; wait for 10 ns;
         assert (o_seg_n = "1110111") report "Error with A" severity failure;
         -- Test B
         i_hex <= "1011"; wait for 10 ns;
-        assert (o_seg_n = "0011111") report "Error with B" severity failure;
+        assert (o_seg_n = "1111100") report "Error with B" severity failure;
         -- Test C
         i_hex <= "1100"; wait for 10 ns;
-        assert (o_seg_n = "1001110") report "Error with C" severity failure;
+        assert (o_seg_n = "0111001") report "Error with C" severity failure;
         -- Test D
         i_hex <= "1101"; wait for 10 ns;
-        assert (o_seg_n = "0111101") report "Error with D" severity failure;
+        assert (o_seg_n = "1011110") report "Error with D" severity failure;
         -- Test E
         i_hex <= "1110"; wait for 10 ns;
-        assert (o_seg_n = "1001111") report "Error with E" severity failure;
+        assert (o_seg_n = "1111001") report "Error with E" severity failure;
         -- Test F
         i_hex <= "1111"; wait for 10 ns;
-        assert (o_seg_n = "1000111") report "Error with F" severity failure;
+        assert (o_seg_n = "1110001") report "Error with F" severity failure;
         
 	
 		wait; -- wait forever
