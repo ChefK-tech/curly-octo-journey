@@ -87,6 +87,7 @@ architecture top_basys3_arch of top_basys3 is
 
   -- create wire to connect button to 7SD enable (active-low)
   signal w_7SD_EN_n : std_logic;
+  signal w_seg_int  : STD_LOGIC_VECTOR(6 downto 0);  -- internal signal
   
 begin
 	-- PORT MAPS ----------------------------------------
@@ -95,8 +96,10 @@ begin
 	-----------------------------------------------------	
     uut: sevenseg_decoder port map (
         i_Hex   => sw,
-        o_seg_n => seg
+        o_seg_n => w_seg_int
      );
+     -- Inverts each bit
+     seg <= not w_seg_int;
     
 	-- CONCURRENT STATEMENTS ----------------------------
 	

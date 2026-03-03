@@ -39,24 +39,23 @@ end sevenseg_decoder;
 architecture Behavioral of sevenseg_decoder is
 
 begin
-    -- The actual "11111111" is inverted from what it actually is as the board is set to active low
     with i_Hex select
-    o_seg_n <= "0000001" when "0000", -- 0
-            "1001111" when "0001",  -- 1
-            "0010010" when "0010",  -- 2
-            "0000110" when "0011",  -- 3
-            "1001100" when "0100",  -- 4
-            "0100100" when "0101",  -- 5
-            "0100000" when "0110",  -- 6
-            "0001111" when "0111",  -- 7
-            "0000000" when "1000",  -- 8
-            "0000100" when "1001",  -- 9
-            "0001000" when "1010",  -- a  
-            "1100000" when "1011",  -- b
-            "0110001" when "1100",  -- c
-            "1000010" when "1101",  -- d
-            "0110000" when "1110",  -- e
-            "0111000" when "1111",  -- f
-            "1111111" when others;
+    o_seg_n <= "1111110" when "0000",  -- 0
+                "0110000" when "0001",  -- 1
+                "1101101" when "0010",  -- 2
+                "1111001" when "0011",  -- 3
+                "0110011" when "0100",  -- 4
+                "1011011" when "0101",  -- 5
+                "1011111" when "0110",  -- 6
+                "1110000" when "0111",  -- 7
+                "1111111" when "1000",  -- 8
+                "1111011" when "1001",  -- 9
+                "1110111" when "1010",  -- a  
+                "0011111" when "1011",  -- b
+                "1001110" when "1100",  -- c
+                "0111101" when "1101",  -- d
+                "1001111" when "1110",  -- e
+                "1000111" when "1111",  -- f
+                "0000000" when others;
 
 end Behavioral;
