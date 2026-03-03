@@ -3,10 +3,10 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Mar  3 10:18:15 2026
-# Process ID         : 18708
+# Start of session at: Tue Mar  3 10:22:21 2026
+# Process ID         : 34392
 # Current directory  : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent33740 C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent23880 C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.xpr
 # Log file           : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/vivado.log
 # Journal file       : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey\vivado.jou
 # Running On         : C27-5CG31326YT
@@ -19,7 +19,7 @@
 # Host memory        : 16442 MB
 # Swap memory        : 10200 MB
 # Total Virtual      : 26643 MB
-# Available Virtual  : 11461 MB
+# Available Virtual  : 10659 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.xpr
