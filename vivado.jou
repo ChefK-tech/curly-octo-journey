@@ -3,10 +3,10 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Mon Mar  2 19:46:03 2026
-# Process ID         : 39464
+# Start of session at: Mon Mar  2 20:56:32 2026
+# Process ID         : 46916
 # Current directory  : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent39304 C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent43460 C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.xpr
 # Log file           : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/vivado.log
 # Journal file       : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey\vivado.jou
 # Running On         : C27-5CG31326YT
@@ -19,21 +19,11 @@
 # Host memory        : 16442 MB
 # Swap memory        : 10200 MB
 # Total Virtual      : 26643 MB
-# Available Virtual  : 12166 MB
+# Available Virtual  : 11017 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-open_wave_config C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/sevenseg_decoder_tb_behav.wcfg
-source sevenseg_decoder_tb.tcl
-close_sim
-launch_simulation
-launch_simulation
-launch_simulation
-open_wave_config C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/sevenseg_decoder_tb_behav.wcfg
-source sevenseg_decoder_tb.tcl
-close_sim
 launch_simulation
 open_wave_config C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/sevenseg_decoder_tb_behav.wcfg
 source sevenseg_decoder_tb.tcl
