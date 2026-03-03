@@ -3,10 +3,10 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Mon Mar  2 20:56:32 2026
-# Process ID         : 46916
+# Start of session at: Tue Mar  3 10:18:15 2026
+# Process ID         : 18708
 # Current directory  : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent43460 C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent33740 C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.xpr
 # Log file           : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/vivado.log
 # Journal file       : C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey\vivado.jou
 # Running On         : C27-5CG31326YT
@@ -19,7 +19,7 @@
 # Host memory        : 16442 MB
 # Swap memory        : 10200 MB
 # Total Virtual      : 26643 MB
-# Available Virtual  : 11017 MB
+# Available Virtual  : 11461 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.xpr
@@ -29,132 +29,6 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
-open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1170.578 ; gain = 107.078
-update_compile_order -fileset sources_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\binaryHexDisp.srcs\sim_1\new\sevenseg_decoder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Jeff.Kwon\Downloads\ECE_281\curly-octo-journey\src\sevenseg_decoder.vhd:]
-ERROR: [Common 17-180] Spawn failed: No error
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'sevenseg_decoder_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'sevenseg_decoder_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj sevenseg_decoder_tb_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.srcs/sim_1/new/sevenseg_decoder_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'sevenseg_decoder_tb'
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1180.387 ; gain = 0.000
-INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot sevenseg_decoder_tb_behav xil_defaultlib.sevenseg_decoder_tb -log elaborate.log"
-Vivado Simulator v2024.2.0
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot sevenseg_decoder_tb_behav xil_defaultlib.sevenseg_decoder_tb -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.sevenseg_decoder [sevenseg_decoder_default]
-Compiling architecture test_bench of entity xil_defaultlib.sevenseg_decoder_tb
-Built simulation snapshot sevenseg_decoder_tb_behav
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1180.387 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/binaryHexDisp.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "sevenseg_decoder_tb_behav -key {Behavioral:sim_1:Functional:sevenseg_decoder_tb} -tclbatch {sevenseg_decoder_tb.tcl} -view {C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/sevenseg_decoder_tb_behav.wcfg} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-open_wave_config C:/Users/C27Jeff.Kwon/Downloads/ECE_281/curly-octo-journey/sevenseg_decoder_tb_behav.wcfg
-source sevenseg_decoder_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'sevenseg_decoder_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 1233.504 ; gain = 53.117
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1165.445 ; gain = 95.746
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Mar  2 21:11:23 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  3 10:20:17 2026...
